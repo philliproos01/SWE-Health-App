@@ -1,24 +1,29 @@
-// Online Java Compiler
-// Use this editor to write, compile and run your Java code online
-
 class HelloWorld {
     public static void main(String[] args) {
         System.out.println("Hello, World!");
         
         
         String s1 = "hello all, bye all";
+        System.out.println(s1);
         String r1 = rotateChar(s1, 2, true);
         System.out.println(r1); // "hell ola,lb eya ll"
         
+        
+        System.out.println("___________");
         String s2 = "1234567890";
+        System.out.println(s2);
         String r2 = rotateChar(s2, 4, true);
         System.out.println(r2); // "4123856709"
         
+        System.out.println("___________");
         String s3 = "hello all, bye all";
+        System.out.println(s3);
         String r3 = rotateChar(s3, 2, false);
         System.out.println(r3); // "hell ola,lb eya ll"
         
+        System.out.println("___________");
         String s4 = "1234567890";
+        System.out.println(s4);
         String r4 = rotateChar(s4, 4, false);
         System.out.println(r4); // "2341678509"
     }
